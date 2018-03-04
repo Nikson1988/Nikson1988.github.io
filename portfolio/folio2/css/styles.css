@@ -1,0 +1,183 @@
+*,*::before,*::after{
+	/*
+	Для всех элементов и псевдоклассов 
+	меняем правила расчета размера
+	*/
+	box-sizing: border-box;
+}
+body{
+	font:normal 16px/1.9 'Open Sans', sans-serif;
+	color:#7e8287;
+}
+nav{
+	background: #02918c;
+	overflow: hidden;
+}	
+.container{
+	width: 1190px;
+	margin:0 auto;
+}
+.logo{
+	color:#fff;
+	font-size:26px;
+	font-weight: bold;
+	width:25%;
+	display: block;
+	float:left;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 6px 0 5px;
+}
+.logo span{
+	color:#cfc91d;
+}
+.menu{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	width: 75%;
+	float: left;
+	text-align: right;
+}
+.menu li{
+	display: inline-block;
+	vertical-align: top;
+}
+.menu a{
+	display: block;
+	font-weight: bold;
+	color:#fff;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 19px 15px;
+	transition: 1s; /*Замедление эфекта*/
+}
+.menu a:hover{
+	background: rgba(0,0,0,.15);
+}
+header{
+	text-align: center;
+	background: #1b1700 url(../images/bg.jpg) center / cover; /*Сокращенная форма*/
+	color:#fff;
+	padding: 200px 0;
+	line-height: 1.2;
+	position: relative;
+}
+header .container{
+	position: relative;
+	z-index: 1;
+}
+header::before{ /*Задаем затемненный блок над картинкой*/
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom:0;
+	background:rgba(0,0,0,.3);
+}
+.lorem{
+	font-size: 30px;
+}
+.bore{
+	font-size: 68px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+.orem{
+	font-size: 18px;
+}
+.btn-yellow{
+	color: #0b1016;
+	font-weight: bold;
+	display: inline-block;
+	background: #cfc91d;
+	text-decoration: none;
+	padding: 15px 45px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	transition: background 0.3s;
+}
+.btn-yellow:hover{
+	background: #02918c;
+	color:#fff;
+
+}
+.bracket{
+	display: block;
+	margin:50px auto;
+}
+.screen{
+	text-align: center;
+	padding: 100px 0;
+}
+.screen-title{
+	color:#02918c;
+	text-transform: uppercase;
+	font-size: 46px;
+	line-height: 1.2;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.screen span{
+	font-size: 23px;
+	font-weight: bold;
+}
+.scills{
+	padding-top: 50px;
+}
+.screen-text{
+	width: 840px;
+	margin:0 auto;
+}
+.scills article{
+	width: 25%;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: -4px;
+	font-size: 11px;
+	border-right: 1px solid #d9dbdb;
+	padding: 50px 30px;
+}
+.scills h3{
+	font-size: 16px;
+}
+.scills article:last-child{
+	border-right-color: transparent;
+}
+.screen-services{
+	text-align: left;
+	background: #f0f0e8;
+	position: relative;
+}
+.screen-services::after{
+	content: '';
+	position:absolute;
+	width:50%;
+	top:0;
+	left:50%;
+	right: 0;
+	bottom: 0;
+	background: #f00 url(../images/bg.jpg) left/cover;
+	opacity: 0.4;
+}
+.services-wrap{
+	width:50%;
+}
+.services{
+	padding-top: 50px;
+}
+.services article{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-right: -4px;
+	font-size: 11px;
+	padding: 0 80px 40px 0;
+}
+.services h3{
+	font-size: 16px;
+}

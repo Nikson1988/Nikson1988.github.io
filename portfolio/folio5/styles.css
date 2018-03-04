@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	background: #e9e9e9;
+	color:#444;
+	font:normal 14px/1.6 Georgia, serif;
+}
+#wrap{
+	width: 960px;
+	margin:0 auto;
+}
+header{
+	background: url(images/pic.jpg) right top;
+}
+#logo{
+	background: #fff;
+	width: 220px;
+	height: 150px;
+	text-align: center;
+	font-style: italic;
+	padding:35px 10px;
+	line-height: 1.2;
+	box-shadow: inset -2px 0 4px rgba(0,0,0,.2);
+}
+#logo a{
+	text-decoration: none;
+	font-size:36px;
+	color: #9c9c9c;
+	display: block;
+}
+#content{
+	overflow: hidden;
+}
+aside{
+	width: 240px;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+	background: #4096ee;
+}
+main{
+	width: 660px;
+	float: right;
+	background: #fff;
+	padding: 10px 30px 20060px;
+	margin-bottom: -20000px;
+}
+nav{
+	background: #85c329;
+	padding:20px 20px;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,.15)
+}
+nav ul{
+	list-style: none;
+	padding:0;
+	margin: 0;
+}
+nav a{
+	display:block;
+	padding: 8px 0;
+	color:#fff;
+	font-size: 16px;
+	text-decoration: none;
+	background:url(images/green_point.gif) repeat-x;
+}
+/*Тег A в первом потомке тэга Ul*/
+nav ul li:first-child a{
+	/* Прозрачный фон*/
+	background: transparent;
+}
+nav a:hover, .active{
+	font-weight: bold;
+}
+#offers{
+	background: #4096ee;
+	padding: 20px;
+	color: #fff;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,.15)
+}
+#offers_title{
+	font-size: 16px;
+	text-transform: uppercase;
+	background:url(images/blue_point.gif) repeat-x left bottom;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.offer{
+	margin-bottom: 25px;
+}
+.offer img{
+	border:5px solid #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+h1{
+	font-weight: normal;
+	color:#135291;
+	border-bottom: 1px dashed #999;
+	margin-top: 0px;
+}
+h2{
+	font-size: 18px;
+}
+blockquote{
+	font-style: italic;
+}
+blockquote::before, blockquote::after{
+	content: '"';
+}
+#usefull_info{
+	background: #ff9523;
+	color:#fff;
+	padding: 10px 30px 60px;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+	overflow:hidden;
+}
+.column{
+	width: 50%;
+	float: left;
+}
+.column h2{
+	background: url(images/orange_point.gif) repeat-x left bottom;
+	margin-top: 0;
+	padding: 8px 0;
+}
+.column a {
+	color:#fff;
+}
+.column a:hover{
+	text-decoration: none;
+}
+footer{
+	font-size: 12px;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,.15);
+	overflow: hidden;
+
+}
+#dev{
+	width: 200px;
+	float: left;
+	background: #a0a0a0;
+	padding: 15px 20px;
+}
+#copy{
+	width: 660px;
+	float: left;
+	background: #cecece;
+	padding: 15px 30px;
+}
+#dev a{
+	color: #fff;
+}
+#dev a:hover{
+	text-decoration: none;
+}
+#wrap::after{
+	/*content пустой*/
+	content: '';
+	display: block;
+	height: 20px;
+	background-image: linear-gradient(to bottom, #c5c5c5, #e5e5e5);
+	margin-top: 1px;
+}

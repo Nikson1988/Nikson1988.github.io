@@ -1,0 +1,150 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	line-height: 1.8;
+	margin: 0;
+}
+#nav{
+	background: #333;
+	text-align: center;
+}
+#nav div{
+	display: inline-block;
+	margin: 1px 0;
+}
+#nav a{
+	display: block;
+	padding: 5px 50px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+#nav a:hover{
+	background: #B3133B;
+	border-radius: 5px;
+}
+
+#container{
+	max-width: 1100px;
+	margin: 0 auto 30px;
+	color: #343d44;
+	overflow: hidden;
+	border-bottom: 2px solid #aaa;
+}
+h1, h2, h3, .contact{
+	text-align: center;
+}
+a{
+	color:#4385f5;
+	text-decoration: none;
+	font-size: 26px;
+}
+header{
+	margin-bottom: 130px; 
+	padding: 50px 0 100px;
+	border-bottom: 2px solid #aaa;
+}
+header h1{
+	margin: 40px 0 100px;
+}
+header p{
+	max-width: 830px;
+	margin: 0 auto;
+	text-align: center;
+}
+#main{
+	padding-bottom: 50px;
+}
+main{
+	background:#343d44;
+	color: #fff;
+	border-radius: 30px 150px;
+	padding: 70px 0 100px;
+}
+main p{
+	max-width: 900px;
+	word-spacing: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+main p span{
+	color: #FB7715;
+}
+.h2{
+	padding-top:50px;
+}
+#portfolio{
+	margin: 100px auto 0px;
+	padding-bottom: 110px;
+	border-bottom: 2px solid #aaa;
+}
+.block{
+	text-align: center;
+	max-width: 970px;
+	margin: 0px auto;
+}
+.folio{
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	margin: 20px 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,.5)
+}
+.f1{
+	background: url(../images/myFolio4.png) center/cover;
+}
+.f2{
+	background: url(../images/myFolio2.png) center/cover;
+}
+.f3{
+	background: url(../images/myFolio3.png) center/cover;
+}
+.f4{
+	background: url(../images/myFolio5.png) center/cover;
+}
+.f5{
+	background: url(../images/myFolio.png) center/cover;
+}
+
+.contact{
+	border-bottom: 2px solid #aaa;
+}
+.contact h3{
+	padding: 60px 0 20px;
+	margin-bottom: 0;
+}
+.contact a{
+
+}
+.contact span{
+	display:inline-block;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+}
+.ph{
+	background: url(../images/phone.png) no-repeat center/cover;
+}
+.ma{
+	background: url(../images/mail.png) no-repeat center/cover;
+}
+.so{
+	background: url(../images/social.png) no-repeat center/cover;
+}
+.b1{
+	float: left;
+	width: 33.3333%
+}
+.b2{
+	float: left;
+	width: 33.3333%
+}
+.b3{
+	float: left;
+	width: 33.3333%
+}
+
